@@ -14,6 +14,7 @@ public class Reverse {
 		StringBuilder sb=new StringBuilder();
 		for (int i = 0; i < ar.length; i++) {
 			sb.append(ar[i]).append(Character.toUpperCase(ar[i].charAt((ar[i].length()-1)))).append(" ");
+			
 		}
 		return sb.toString().trim();
 }
