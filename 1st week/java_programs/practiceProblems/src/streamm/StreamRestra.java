@@ -27,6 +27,8 @@ public class StreamRestra {
 				.reduce(0.0d,(s,el)-> s+el);
 		
 		
+		
+		
 		System.out.println("Customer Bill for Table No. 01\n");
 		
 		int i=0;
@@ -40,7 +42,7 @@ public class StreamRestra {
 		
 	}
 		System.out.println("==============================================");
-		System.out.print("Total Bill (including GST of 5% ) is  ");
+		System.out.print("Total Bill (including GST of 5% )is  ");
 		System.out.printf("%.2f",(totalBill+(totalBill*0.05)));
 		
 
