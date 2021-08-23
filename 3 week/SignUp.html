@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign up</title>
+    </head>
+    <body bgcolor="#D0CFCE">
+        <form method="post" target="_blank" action="https://www.w3schools.com/action_page.php">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Enter first name" required title="First Name is required.">
+            <br><br>
+            <label for="password">Password</label>
+            <input type="text" id="password" name="password" placeholder="Enter Password" >
+            <br><br>
+            <label for="email">Email</label>
+            <input type="text" name="email" placeholder="Enter Valid Email id"  required pattern="[a-z0-9._%+-]+@[a-z0-9.9.-]+\.[a-z]{2,}$">
+            <br><br>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="M" id="male"><label for="male">Male</label>
+            <input type="radio" name="gender" value="F" id="female"<label for="female">Female</label>
+            <br><br> <br>   
+            <dt><label>Favourite Teams</label></dt><br>
+            <dd><input type="checkbox" id="mi" name="mi"><label for="mi">MI</label>
+            <input type="checkbox" id="rcb" name="rcb"><label for="rcb">RCB</label>
+            <input type="checkbox" id="csk" name="csk"><label for="csk">CSK</label>
+            <input type="checkbox" id="kkr" name="kkr"><label for="kkr">KKR</label>
+            <input type="checkbox" id="srh" name="srh"><label for="srh">SRH</label></dd>
+            <br><br>
+            <label for="about">About your favourite Team and favourite Player you support</label><br>
+            <textarea id="about" name="about">This is some description about Team and Player</textarea>
+            <br><br>
+
+            <input type="submit" value="Save Data">
+            </form>
+            <a href="homepage.html"><h5>GO to homepage</h5></a>
+    </body>
+</html>
